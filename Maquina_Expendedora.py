@@ -56,19 +56,35 @@ def ingresarImporte(opcion):
         importeUsuario += moneda
         monedasIntroduces.append(moneda)
     if importeUsuario > precio:
-        resto = importeUsuario - precio
-    #     darCambio(resto)
-    #
-    # entregarProducto(nombresProductos[opcion])
+        resto = round(importeUsuario - precio, 2)
+        darCambio(resto)
+    entregarProducto(nombresProductos[opcion])
     sumarMonedas(monedasIntroduces)
 
-#
-# def darCambio(resto):
-#
-#
-#
-# def entregarProducto(nombre):
-#     print(f"Aquí tiene su {nombre}")
+
+def darCambio(resto):
+    monedasDevueltas = []
+    while resto != 0:
+        monedaDevueltas = False
+        conTiposmonedas = 0
+        while not monedaDevueltas and conTiposmonedas < len(valoresMonedas):
+                moneda = valoresMonedas[conTiposmonedas]
+                conTiposmonedas += 1
+                if moneda <= resto:
+                    monedasDevueltas.append(moneda)
+                    monedaDevueltas = True
+                    resto -= moneda
+                    resto = round(resto, 2)
+    print(f"Tus vueltas son: {monedasDevueltas}")
+    devolverMonedas(monedasDevueltas)
+
+def devolverMonedas(monedas):
+    for moneda in monedas:
+        resevaMonedas[valoresMonedas.index(moneda)] -= 1
+
+
+def entregarProducto(nombre):
+    print(f"Aquí tiene su {nombre}")
 
 def sumarMonedas(monedas):
     for moneda in monedas:
