@@ -1,0 +1,5 @@
+1. Leer el contenido de una carpeta diferenciando entre ficheros y directorios (Utilizando os)
+2. Leer el contennido de un fichero
+3. Crear un fichero
+4. Modificar el contenido del fichero
+5. Crear un diccionario y trabajar con sus valores (lectura, escritura)

@@ -1,0 +1,15 @@
+{
+    "idReceta": "1",
+    "nombreReceta": "Lasa\u00c3\u00b1a",
+    "ingredientes": [
+        {
+            "idIngredientes": "123",
+            "nombreIngredienets": "Carne"
+        },
+        {
+            "idIngredientes": "321",
+            "nombreIngredienets": "Harina"
+        }
+    ],
+    "dificultad": "media"
+}
