@@ -1,0 +1,20 @@
+{
+    "nobuk": [
+        "k. asjdhiashdaihsudha",
+        "\u00f1. jasidasijdasijda",
+        "p. qwuyeuqwuieqwye"
+    ],
+    "curtido": [
+        "l. dhuiasidasihudhgaiudasuh",
+        "s. hfsdufhdf",
+        "v. iqiqiqiqi"
+    ],
+    "legumbre": [
+        "askjhdashdiuasiuhdhaoid",
+        "q. nvjusdivfsdfd",
+        "s. daosidwqideqwij"
+    ],
+    "kjkj": [
+        "Dimelon: \n"
+    ]
+}
