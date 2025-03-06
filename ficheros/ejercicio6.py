@@ -5,6 +5,8 @@
 # los nombres de usuario y las contraseñas encriptadas. En caso de login, se comprobará que la
 # contraseña es correcta y es la del usuario.
 import json
+import pandas
+
 
 usuarios = {
 
